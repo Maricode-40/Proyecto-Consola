@@ -1,11 +1,11 @@
 body {
-  background-color: rgba(218, 167, 28, 0.833);
+  background-color: #e3d642d3;
 }
 
 .container {
   width: 350px;
   height: 420px;
-  background-color: rgb(228, 231, 122);
+  background-color: #f2af01;
   position: absolute;
   top: 50%;
   left: 40%;
