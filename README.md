@@ -8,7 +8,6 @@
 **- Título del proyecto:** Consola Gameboy. Este es un proyecto con herramientas HTML, CSS, Javascript vanilla, Flexbox y Responsive design.
 
 <details>
-
   <summary>Tabla de Contenidos </summary>
   <ol>
   <li><a href="#objetivo-🎯">Objetivo</a></li>

@@ -8,24 +8,15 @@
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
-    <audio src="music/1-01 Crash Bandicoot.mp3" controls autoplay loop></audio>
+    <audio src="music/1-01 Crash Bandicoot.mp3" autoplay></audio>
+
     <div class="container">
       <div class="screen-border">
         <div class="line-black"></div>
         <div class="power">
           <button id="theButton"></button>
         </div>
-        <div class="screen">
-          <img
-            src="img/crash1.jpeg"
-            alt="crashbandicut"
-            width="99%"
-            height="90%"
-            layout="responsive"
-            id="changeImage"
-            onclick="change();"
-          />
-        </div>
+        <div class="screen" id="screenImg"></div>
       </div>
       <div class="d-pad">
         <div class="d-y"></div>
@@ -36,7 +27,9 @@
         <div class="Game-boy">Game Boy</div>
       </div>
       <div class="buttons">
-        <div class="b-a"></div>
+        <div class="b-a" id="a">
+          <button class="newbtn" id="off"></button>
+        </div>
         <div class="b-b"></div>
       </div>
       <div class="buttons_s">
