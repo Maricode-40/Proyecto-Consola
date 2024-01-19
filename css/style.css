@@ -1,4 +1,6 @@
 body {
+  display: flex;
+  justify-content: right;
   background-color: #e3d642d3;
 }
 
@@ -44,8 +46,6 @@ body {
 }
 
 .power {
-  display: flex;
-  flex-wrap: nowrap;
   width: 10px;
   height: 10px;
   border-radius: 15px;
