@@ -44,6 +44,8 @@ body {
 }
 
 .power {
+  display: flex;
+  flex-wrap: nowrap;
   width: 10px;
   height: 10px;
   border-radius: 15px;
