@@ -33,3 +33,8 @@ start.addEventListener("click", () => {
     position = 0;
   }
 });
+
+/* the audio should be now playable */
+var audio = document.createElement("audio");
+audio.addEventListener("canplaythrough", (event) => {});
+canplaythrough = (event) => {};
